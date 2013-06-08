@@ -1,0 +1,18 @@
+name: Trash
+main: com.norcode.bukkit.trash.Trash
+version: 0.9.9
+ 
+commands:
+   trash:
+      aliases: [bin, garb, garbage, garbagecan, trashcan, disp, disposal]
+      description: Opens a black-hole chest.
+      usage: /<command>
+
+
+permissions:
+   trash.command:
+     default: true
+   trash.sign.create:
+     default: true
+   trash.sign.use:
+     default: true
